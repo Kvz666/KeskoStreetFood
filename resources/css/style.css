@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  background-color: #fff;
+  background-color: #f4f4f4;
 }
 
 header {
@@ -33,7 +33,7 @@ h3 {
 h1 {
   margin-top: 0;
   margin-bottom: 20px;
-  color: #cf6d17;
+  color: #f2f50b;
   font-size: 240%;
   word-spacing: 4px;
   text-shadow: 2px 2px 2px black;
@@ -48,6 +48,7 @@ h2 {
 h3 {
   font-size: 140%;
   margin-top: 15px;
+    color: #f2f50b;
 }
 
 .clearfix {zoom: 1;}
@@ -219,7 +220,10 @@ text-align: center;
 }
 
 /*********meals********/
-
+.section-meal {
+    margin-top: 40px;
+    
+}
 .meal-showcase {
   list-style: none;
   width: 100%;
@@ -362,6 +366,8 @@ a:active {
 }
 
 /*************TESTIMONIALS************/
+
+
 .section-testimonials {
     margin-top: 60px;
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
